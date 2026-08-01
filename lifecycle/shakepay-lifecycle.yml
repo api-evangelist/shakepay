@@ -1,0 +1,12 @@
+generated: '2026-07-21'
+method: searched
+source: https://status.shakepay.com/
+notes: >-
+  Shakepay publishes a public system status page. No public developer API,
+  versioning policy, deprecation policy, or SLA/uptime commitment was found
+  (Shakepay ships a consumer app, not a versioned developer platform).
+status_page: https://status.shakepay.com/
+versioning: null
+deprecation: null
+sla: null
+deprecated_operations: []

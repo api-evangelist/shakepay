@@ -1,0 +1,34 @@
+generated: '2026-07-21'
+method: searched
+source: https://shakepay.com/security
+notes: >-
+  Shakepay (Shake Labs Inc.) is a regulated Canadian crypto-asset trading
+  platform. The items below are its PUBLISHED regulatory registrations and
+  compliance posture, captured from the public security page. There is no public
+  developer API/OpenAPI, so no cross-cutting API standards (OAuth2/OIDC/JSON:API/
+  RFC 9457) could be derived from a spec.
+standards:
+- id: fintrac-msb
+  conforms: true
+  evidence: 'Registered Money Services Business with FINTRAC, member #M17065696'
+- id: ciro-member
+  conforms: true
+  evidence: Member of the Canadian Investment Regulatory Organization (CIRO)
+- id: amf-investment-dealer
+  conforms: true
+  evidence: Registered Investment Dealer with the Autorite des marches financiers (AMF)
+- id: canadian-securities-registration
+  conforms: true
+  evidence: Registered with securities regulatory authorities in all Canadian provinces and territories
+- id: pipeda
+  conforms: true
+  evidence: Compliant with Canada's Personal Information Protection and Electronic Documents Act
+- id: quebec-privacy-law-25
+  conforms: true
+  evidence: Compliant with Quebec's Act Respecting the Protection of Personal Information in the Private Sector
+- id: soc-1-type-ii
+  conforms: true
+  evidence: Cold-storage custody provider holds SOC 1 Type II
+- id: soc-2-type-ii
+  conforms: true
+  evidence: Cold-storage custody provider holds SOC 2 Type II

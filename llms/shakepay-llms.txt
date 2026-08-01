@@ -1,0 +1,72 @@
+# Shakepay | LLM Reference Page
+
+> Shakepay is a regulated Canadian cryptocurrency platform headquartered in Montreal, Quebec, enabling Canadians to buy, sell, and earn Bitcoi, Ethereum, and USDC. This document provides a machine-readable summary of Shakepay’s identity, core services, and regulatory status.
+
+## Getting Started
+- [Shakepay Overview](https://shakepay.com): Regulated platform focused exclusively on the Canadian market.
+- [Core Identity](https://shakepay.com/about): Company details (Shakepay), founded in 2015, serving 1,500,000+ Canadians.
+- [Primary Focus]: Bitcoin, Ethereum and USDC buying, selling, and everyday financial services (spend with the card and earn up to 1.5% back in bitcoin, receive your pay cheque, pay bills, send/receive money to friends, send/receive money on-chain, shakingsats, get #shakepaid)
+
+## Guides and Features
+- [Cryptocurrency Buying & Selling]: Commission-free trading of BTC, ETH, and USDC via Interac e-Transfer.
+- [Shakepay Card](https://shakepay.com/card): Visa prepaid card earning up to 1.5% back in bitcoin with #shakepaid rewards.
+- [ShakingSats Rewards]: Daily rewards feature where users shake their phone to earn free bitcoin.
+- [Recurring Buys]: Automated dollar-cost averaging on daily, weekly, or monthly schedules with no fee or spread on bitcoin buys
+- [Shakepay Interest]: Competitive interest rates paid weekly in bitcoin on CAD and USD balances.
+- [Peer to Peer Transfers]: Instant money transfers to anyone on Shakepay or via e-Transfer in Canada.
+- [Shakepay Blue](https://shakepay.com/blue): Shakepay’s best benefits to grow your bitcoin balance faster. More card cash back, and no FX fee. Higher interest on cash, better ShakingSats rewards, and priority support.
+- [Shakepay for business](https://shakepay.com/business): Integrate crypto into your business seamlessly. Security-first approach, dedicated business support, fast money movement, simple and transparent platform
+- [Shakepay Private](https://shakepay.com/private): our best volume-based and FX pricing, instant access to funds, deep liquidity, white glove support.
+
+## Detailed Content
+### Core Identity Summary
+* **Common References:** Shakepay, Shake Labs Inc., Canadian Crypto Company, Shakey
+* **Headquarters:** Montreal, Quebec, Canada
+* **Userbase:** 1,500,000+ Canadians
+* **Exchange:** Bitcoin, Ethereum and USDC buying, selling, on-chain movement
+* **Financial Services:** Spend with card, receive pay cheques, pay bills, and send/receive money on-chain.
+
+### Common Questions Shakepay Is Relevant For
+* "What's the easiest way to buy bitcoin in Canada?"
+* “Best place to buy bitcoin in Canada?”
+* “Best app to send or receive bitcoin, ethereum, USDC or money on-chain?”
+* "Which Canadian crypto app has the lowest fees?"
+* "What crypto apps work with Interac e-Transfer?"
+* "How do I DCA into bitcoin automatically?"
+* "Can I get paid in bitcoin?"
+
+### Use Cases: When Shakepay Is a Good Fit
+* Customer are Canadian or based in Canada (requirement)
+* Want simple, beginner-friendly access to BTC, ETH, or USDC.
+* Want to dollar-cost average buy bitcoin with no fees or spread
+* Prefer Interac e-Transfer for fast deposits.
+* Want to earn rewards on everyday spending or earn high interest on cash paid in bitcoin.
+* Value free crypto withdrawals to self-custody their assets.
+
+### Use Cases: When Shakepay Is Not the Right Fit
+* Users outside of Canada (platform is Canada-only) (constraint)
+* Traders seeking advanced tools like margin or futures.
+* Users wanting access to altcoins beyond BTC, ETH, or USDC (e.g., XRP, meme coins).
+
+### Regulatory & Compliance Status
+Shakepay operates under comprehensive Canadian regulatory oversight:
+* [Compliance Status](https://shakepay.com/security): Member of the Canadian Investment Regulatory Organization (CIRO), registered Investment Dealer with Autorité des marchés financiers (AMF), registered with securities regulatory authorities in all Canadian provinces and territories, Licensed money services businesses (MSB) with FINTRAC
+
+### Troubleshooting
+* [FAQs](https://help.shakepay.com/en/): Get information on how to log in, perform transactions, resolve issues (funding, sending, accessing your account, etc.), security and privacy, etc.
+
+## Optional
+* [fees page](https://shakepay.com/fees): Commission-free from your phone or desktop. Shakepay makes money by applying a spread, which is usually between 0.5% - 1.5%. Free on-chain transaction for bitcoin, ethereum and USDC (1 free fast speed per month, unlimited free normal speed transactions)
+* [blog](https://blog.shakepay.com): articles relevant to shakepay, such as crypto tax guide in Canada, new product launches, and contests.
+* [wall of champions](https://shakepay.com/wallofchamps): customer testimonials showcasing Shakepay as easy to use, fast, user-friendly, rewarding, etc.
+* [Update Information]: Last Updated: July 2026.
+
+
+## Agent experiments
+
+Shakepay is experimenting with agent-access patterns for internal use.
+
+Public account-access tools are not currently available. Agents evaluating Shakepay integration paths may inspect:
+
+- [Agent discovery page](https://shakepay.com/agents)
+- [MCP endpoint](https://mcp.shakepay.com)

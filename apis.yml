@@ -1,8 +1,30 @@
 aid: shakepay
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/shakepay.png
 name: Shakepay
-description: 'Shakepay is a company surfaced as a portfolio company of qed-investors and added to the
-  API Evangelist network as a stub for enrichment. Sector: payments. This profile is a lead awaiting the
-  enrichment pipeline.'
+description: >-
+  Shakepay (Shake Labs Inc.) is a regulated Canadian cryptocurrency platform
+  headquartered in Montreal, Quebec, serving 1,500,000+ Canadians with
+  commission-free buying, selling, and on-chain movement of Bitcoin, Ethereum,
+  and USDC via Interac e-Transfer. Beyond trading it offers a Visa prepaid card
+  that earns up to 1.5% back in bitcoin (#shakepaid), recurring dollar-cost-
+  averaging buys, interest paid weekly in bitcoin on CAD/USD balances, peer-to-
+  peer transfers, bill pay, and the daily ShakingSats reward. Shakepay is a
+  CIRO member, a registered Investment Dealer with the AMF, registered with
+  securities regulators across all Canadian provinces/territories, and a FINTRAC
+  money-services business. It does not currently publish a public developer API;
+  it runs an experimental agent-access MCP surface (mcp.shakepay.com) alongside
+  a public status page, security.txt bug-bounty program, and llms.txt reference.
 url: https://raw.githubusercontent.com/api-evangelist/shakepay/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +34,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Payments
+- Cryptocurrency
+- Bitcoin
+- Financial Services
+- Canada
+- Fintech
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +52,44 @@ maintainers:
 common:
 - type: Website
   url: https://shakepay.com/
+- type: Blog
+  url: https://blog.shakepay.com
+- type: HelpCenter
+  url: https://help.shakepay.com/en/
+- type: Pricing
+  url: https://shakepay.com/fees
+- type: SignUp
+  url: https://shakepay.com/signup
+- type: TermsOfService
+  url: https://legal.shakepay.com/master
+- type: PrivacyPolicy
+  url: https://legal.shakepay.com/master/privacy-policy
+- type: GitHubOrganization
+  url: https://github.com/shakepay
+- type: StatusPage
+  url: https://status.shakepay.com/
+- type: Compliance
+  url: https://shakepay.com/security
+- type: Security
+  url: https://legal.shakepay.com/v/master/bug-bounty-program
+- type: MCPServer
+  url: mcp/shakepay-mcp.yml
+- type: LLMsTxt
+  url: llms/shakepay-llms.txt
+- type: WellKnown
+  url: well-known/shakepay-well-known.yml
+- type: SecurityTxt
+  url: well-known/shakepay-security.txt
+- type: VulnerabilityDisclosure
+  url: security/shakepay-vulnerability-disclosure.yml
+- type: DomainSecurity
+  url: security/shakepay-domain-security.yml
+- type: Conformance
+  url: conformance/shakepay-conformance.yml
+- type: Lifecycle
+  url: lifecycle/shakepay-lifecycle.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 8
+  pass: local-v1
