@@ -2,15 +2,12 @@ generated: '2026-07-21'
 method: searched
 status: published
 source: https://mcp.shakepay.com
-notes: >-
-  Live, publicly reachable Model Context Protocol server discovered via the
-  Shakepay llms.txt "Agent experiments" section and the agent discovery page at
-  https://shakepay.com/agents. This is an agent-access EXPERIMENT, not a general
-  account-access API: Shakepay states "Public account-access tools are not
-  currently available." The only tool exposed today is signal_interest, which
-  records an agent's intended integration. Verified by a live JSON-RPC
-  initialize + tools/list against the endpoint (no account access invoked; the
-  signal_interest tool was NOT called).
+notes: 'Live, publicly reachable Model Context Protocol server discovered via the Shakepay llms.txt "Agent
+  experiments" section and the agent discovery page at https://shakepay.com/agents. This is an agent-access
+  EXPERIMENT, not a general account-access API: Shakepay states "Public account-access tools are not currently
+  available." The only tool exposed today is signal_interest, which records an agent''s intended integration.
+  Verified by a live JSON-RPC initialize + tools/list against the endpoint (no account access invoked;
+  the signal_interest tool was NOT called).'
 server:
   name: shakepay-agent-access
   version: 1.0.0
@@ -22,15 +19,22 @@ server:
   - https://shakepay.com/llms.txt
 tools:
 - name: signal_interest
-  description: >-
-    Record agent interest in Shakepay integration paths. Public account-access
-    tools are not currently available.
+  description: Record agent interest in Shakepay integration paths. Public account-access tools are not
+    currently available.
   required_inputs:
   - intended_use_case
-  - expected_protocol   # enum: mcp | api | cli | browser | other
+  - expected_protocol
   - agent_runtime
-  - human_initiated     # boolean
-  - nonce               # current nonce from https://shakepay.com/agents
+  - human_initiated
+  - nonce
   - safest_first_integration
   optional_inputs:
   - additional_context
+deployment:
+  mode: remote
+  endpoint: https://mcp.shakepay.com
+  verified: probed
+  probe: live
+  tools: 1
+  checked: '2026-08-12'
+  source: catalog MCP census
