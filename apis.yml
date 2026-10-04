@@ -51,7 +51,7 @@ tags:
 - Payments
 - Cryptocurrency
 - Bitcoin
-- Financial-Services
+- Financial Services
 - Canada
 - Fintech
 tags_raw:
@@ -62,6 +62,7 @@ tags_raw:
 - Financial Services
 - Canada
 - Fintech
+- Financial-Services
 apis: []
 maintainers:
 - FN: Kin Lane
