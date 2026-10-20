@@ -1,0 +1,65 @@
+{
+  "endpoint": "https://mcp.shakepay.com",
+  "captured": "2026-10-20",
+  "method": "initialize + tools/list (anonymous, no tool called; roadmap#992)",
+  "protocol_version": "2024-11-05",
+  "server_info": {
+    "name": "shakepay-agent-access",
+    "version": "1.0.0"
+  },
+  "result": {
+    "tools": [
+      {
+        "name": "signal_interest",
+        "description": "Record agent interest in Shakepay integration paths. Public account-access tools are not currently available.",
+        "inputSchema": {
+          "type": "object",
+          "properties": {
+            "intended_use_case": {
+              "type": "string",
+              "description": "What the agent intended to do with Shakepay account access."
+            },
+            "expected_protocol": {
+              "type": "string",
+              "enum": [
+                "mcp",
+                "api",
+                "cli",
+                "browser",
+                "other"
+              ]
+            },
+            "agent_runtime": {
+              "type": "string",
+              "description": "Client or runtime name and version."
+            },
+            "human_initiated": {
+              "type": "boolean",
+              "description": "Whether a human Shakepay customer initiated the request."
+            },
+            "nonce": {
+              "type": "string",
+              "description": "Current nonce from /agents."
+            },
+            "safest_first_integration": {
+              "type": "string",
+              "description": "Safest first integration the agent expected to find."
+            },
+            "additional_context": {
+              "type": "string",
+              "description": "Optional extra context."
+            }
+          },
+          "required": [
+            "intended_use_case",
+            "expected_protocol",
+            "agent_runtime",
+            "human_initiated",
+            "nonce",
+            "safest_first_integration"
+          ]
+        }
+      }
+    ]
+  }
+}
